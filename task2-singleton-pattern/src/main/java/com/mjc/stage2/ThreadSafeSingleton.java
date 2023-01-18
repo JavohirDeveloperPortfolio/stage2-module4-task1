@@ -12,4 +12,8 @@ public class ThreadSafeSingleton {
         }
         return instance;
     }
+
+    public ThreadSafeSingleton getInstance(){
+        return instance;
+    }
 }
